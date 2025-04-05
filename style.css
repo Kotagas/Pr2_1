@@ -1,0 +1,99 @@
+/* Основні стилі */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Шапка */
+header {
+    background-color: #67001f; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Контейнер */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Основний контент */
+main {
+    flex: 3;
+    margin-right: 20px;
+}
+
+main h2 {
+    color: #67001f; 
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+/* Бічна панель */
+aside {
+    flex: 1;
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside h3 {
+    color: #ffffff;
+    background-color: #67001f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #67001f;
+}
+
+/* Футер */
+footer {
+    background-color: #333333;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
